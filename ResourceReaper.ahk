@@ -29,8 +29,8 @@ global D3ScreenResolution
 ,PosY
 
 ;CONFIGURATION AREA ONLY CHANGE VALUES HERE!!!
-global Percentage := 100
-,Hotkey := "2"
+global Percentage := 90 ;EVERYTHING HIGHER THAN 90 OR LOWER THAN 10 GIVES YOU MIXED RESULTS, BE AWARE
+,Hotkey := "3" ;THIS IS THE HOTKEY THE SCRIPT PRESSES TO CAST MAGES
 ;END OF CONFIGURATION ARE DONT CHANGE ANYTHING AFTER THAT LINE!!!
 
 
@@ -56,7 +56,7 @@ Loop
 	IfWinActive, ahk_class D3 Main Window Class
 	{
 		ColorTest := "0xA0A025"
-		PixelSearch, , , %PosX%, %PosY%, %PosX%, %PosY%, %ColorTest%, 65
+		PixelSearch, , , %PosX%, %PosY%, %PosX%, %PosY%, %ColorTest%, 60
 		If !Errorlevel
 		{
 			Send, %Hotkey%
