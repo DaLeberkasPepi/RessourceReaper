@@ -1,4 +1,17 @@
-﻿#NoEnv
+﻿;========================================================================
+;
+; RessourceReaper
+;
+; casts hotkey when sssence is on certain percentage
+;
+; Created by DaLeberkasPepi
+;   https://github.com/DaLeberkasPepi
+;
+; Last Update: 2018-02-25 15:30 GMT+1
+;
+;========================================================================
+
+#NoEnv
 #IfWinActive, ahk_class D3 Main Window Class
 #SingleInstance Force
 
@@ -17,7 +30,7 @@ global D3ScreenResolution
 
 ;CONFIGURATION AREA ONLY CHANGE VALUES HERE!!!
 global Percentage := 100
-,Hotkey := "3"
+,Hotkey := "2"
 ;END OF CONFIGURATION ARE DONT CHANGE ANYTHING AFTER THAT LINE!!!
 
 
