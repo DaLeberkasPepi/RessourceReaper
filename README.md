@@ -5,7 +5,6 @@ Casts Keyboard or Mouse Hotkey if Ressource (as of now only Essence) is at least
 ## Configuration Options
 |Value|Line Number|Description|
 |---|---|---|
-
 Percentage := 90 	       		|24   	|everything higher than 90 or lower than 10 gives you mixed results, be aware!
 UseMouse := False			   	|25   	|change that if you want to use mouse buttons instead of the default keyboard buttons.
 UseHoldKey := False				|26		|if set to "True" the script only runs when the button from "HoldKey" is pressed.
