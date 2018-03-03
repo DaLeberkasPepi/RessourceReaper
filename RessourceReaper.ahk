@@ -1,8 +1,8 @@
 ﻿;========================================================================
 ;
-; RessourceReaper
+; RessourceReaper v1.0.0
 ;
-; casts hotkey when sssence is on certain percentage
+; casts hotkey when Esssence is on certain percentage
 ;
 ; Created by DaLeberkasPepi
 ;   https://github.com/DaLeberkasPepi
