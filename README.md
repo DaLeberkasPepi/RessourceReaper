@@ -1,4 +1,6 @@
-# RessourceReaper
+# RessourceReaper (deprecated!!!, not supported anymore)
+
+Deprecated, please use https://github.com/ZyRaNex/ZyHelper instead for better usability
 
 Casts Keyboard or Mouse Hotkey if Ressource (as of now only Essence) is at least on a certain percentage.
 
